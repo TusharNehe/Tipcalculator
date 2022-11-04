@@ -1,4 +1,4 @@
-As a user, you and your friends go to restaurant, based on your experience you wants to pay tip to the waiter. 
+ you and your friends go to restaurant, based on your experience you wants to pay tip to the waiter. 
 You can calculate individual tip ammount by using tipcalculator.
 
 
