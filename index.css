@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.main {
+  width: 100vw;
+  height: 87.5vh;
+  background-color: antiquewhite;
+  padding-top: 80px;
+}
+.container {
+  width: 350px;
+  border: 1px solid rgb(209, 208, 208);
+  display: block;
+  margin: auto;
+}
+.calculator {
+  padding: 0 0 10px 0;
+  background-color: rgb(239, 237, 237);
+}
+
+.container h1 {
+  padding: 15px 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 100;
+  background-color: #0c4e95;
+  text-align: center;
+  color: rgb(232, 232, 232);
+}
+label {
+  font-weight: 600;
+  color: rgb(119, 119, 119);
+}
+
+.rs {
+  padding-bottom: 20px;
+  padding-left: 15px;
+}
+.billamount {
+  padding-top: 30px;
+}
+.billamount span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+input {
+  width: 220px;
+  height: 35px;
+  margin-top: 10px;
+  border: 1px solid rgb(133, 131, 131);
+  border-radius: 5px;
+  background-color: rgb(239, 237, 237);
+  padding-left: 10px;
+}
+select {
+  margin-left: 30px;
+  width: 230px;
+  height: 35px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+input:nth-child(2) {
+  margin-left: 30px;
+}
+button {
+  display: block;
+  margin: auto;
+  font-size: 10px;
+  padding: 7px 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  color: white;
+  background-color: rgb(254, 74, 54);
+  border: none;
+}
+p {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 10px;
+}
+p:nth-child(2) {
+  font-size: 20px;
+  font-weight: 600;
+}
+p:last-child {
+  margin-top: 5px;
+}
+#individualtip{
+  margin-left: 10px;
+}
+

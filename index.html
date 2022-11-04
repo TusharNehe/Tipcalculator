@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="heading">
+          <h1>TIP CALCULATOR</h1>
+        </div>
+        <div class="calculator">
+          <div class="form">
+            <form action="">
+              <div class="rs billamount">
+                <label for="">Enter your bill amount</label>
+                <span
+                  >Rs
+                  <input
+                    id="totalbill"
+                    type="number"
+                    placeholder="Enter bill amount"
+                /></span>
+              </div>
+              <div class="rs">
+                <label for="">How was the service?</label>
+                <select name="" id="tippercent">
+                  <option value="a">Select Tip Percet</option>
+                  <option value="20">Excellent- 20%</option>
+                  <option value="15">Medium- 15%</option>
+                  <option value="10">Not so good- 10%</option>
+                  <option value="">Very bad- 0%</option>
+                </select>
+              </div>
+              <div class="rs">
+                <label for="">How Many pepole shairing the bill?</label>
+                <input
+                  id="totalpepole"
+                  type="number"
+                  placeholder="Enter number of pepole"
+                />
+              </div>
+              <button>CALCULATE</button>
+            </form>
+            <div class="output"></div>
+          </div>
+          <p>TIP AMOUNT</p>
+          <p>Rs <span id="individualtip"></span></p>
+          <p>Each</p>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js" defer></script>
+  </body>
+</html>
